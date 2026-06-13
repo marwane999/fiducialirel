@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Phone } from 'lucide-react'
 import { NAV_LINKS, SITE_CONFIG } from '@/lib/constants'
 import { phoneLink } from '@/lib/utils'
@@ -25,9 +26,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-2xl font-bold text-primary">
-              Fiduciaire le M&eacute;diateur
-            </span>
+            <Image src="/images/logo.png" alt="Fiduciaire le Médiateur" width={97} height={40} className="h-10 w-auto" priority />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">

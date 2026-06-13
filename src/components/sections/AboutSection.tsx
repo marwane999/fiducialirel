@@ -32,7 +32,7 @@ export default function AboutSection() {
             >
               <div className="relative aspect-[4/3] rounded-xl overflow-hidden bg-background-alt">
                 <Image
-                  src="/images/about.webp"
+                  src="/images/about.jpg"
                   alt="Fiduciaire le Médiateur Cabinet Comptable Casablanca"
                   fill
                   className="object-cover"
@@ -73,7 +73,7 @@ export default function AboutSection() {
             >
               <div className="relative aspect-[4/3] rounded-xl overflow-hidden bg-background-alt">
                 <Image
-                  src="/images/approach.webp"
+                  src="/images/approach.jpg"
                   alt="Notre approche Fiduciaire le Médiateur"
                   fill
                   className="object-cover"

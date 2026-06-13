@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { MapPin, Phone, Mail, Clock, Facebook } from 'lucide-react'
 import { SITE_CONFIG, NAV_LINKS } from '@/lib/constants'
 import { phoneLink } from '@/lib/utils'
@@ -14,8 +15,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           <div>
-            <Link href="/" className="text-2xl font-bold">
-              Fiduciaire le M&eacute;diateur
+            <Link href="/" className="inline-block">
+              <Image src="/images/logo.png" alt="Fiduciaire le Médiateur" width={97} height={40} className="h-10 w-auto brightness-0 invert" />
             </Link>
             <p className="mt-4 text-sm text-gray-300 leading-relaxed">
               Votre cabinet de confiance pour la création d&apos;entreprise, la domiciliation

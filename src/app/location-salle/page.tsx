@@ -40,7 +40,7 @@ export default function LocationSallePage() {
   return (
     <>
       <section className="relative min-h-[60vh] flex items-center gradient-hero overflow-hidden pt-20">
-        <div className="absolute inset-0 bg-[url('/images/hero-bg.webp')] bg-cover bg-center opacity-10" />
+        <div className="absolute inset-0 bg-[url('/images/hero-bg.jpg')] bg-cover bg-center opacity-10" />
         <div className="absolute inset-0 bg-gradient-to-b from-primary/90 to-primary/70" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
           <div className="max-w-3xl">
@@ -63,10 +63,10 @@ export default function LocationSallePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-6 mb-12">
             <div className="relative aspect-video rounded-xl overflow-hidden bg-background-alt">
-              <Image src="/images/about.webp" alt="Salle de réunion Fiduciaire le Médiateur Casablanca" fill className="object-cover" />
+              <Image src="/images/about.jpg" alt="Salle de réunion Fiduciaire le Médiateur Casablanca" fill className="object-cover" />
             </div>
             <div className="relative aspect-video rounded-xl overflow-hidden bg-background-alt">
-              <Image src="/images/about.webp" alt="Salle de conférence Fiduciaire le Médiateur" fill className="object-cover" />
+              <Image src="/images/about.jpg" alt="Salle de conférence Fiduciaire le Médiateur" fill className="object-cover" />
             </div>
           </div>
 
