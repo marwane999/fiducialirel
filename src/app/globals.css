@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #0A2B4A;
+    --primary-light: #1A3F62;
+    --primary-dark: #061E33;
+    --secondary: #C8A45C;
+    --secondary-light: #D4B87A;
+    --secondary-dark: #A8883E;
+    --accent: #2E7D32;
+    --background: #FFFFFF;
+    --background-alt: #F8F9FA;
+    --foreground: #1A1A2E;
+    --muted: #4A4A5A;
+    --muted-light: #9CA3AF;
+    --border: #E5E7EB;
+    --radius: 12px;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .gradient-hero {
+    @apply bg-gradient-to-b from-primary to-primary-light;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg
+           bg-accent text-white font-semibold text-base
+           hover:bg-accent-light transition-all duration-200
+           shadow-md hover:shadow-lg;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg
+           bg-secondary text-white font-semibold text-base
+           hover:bg-secondary-light transition-all duration-200
+           shadow-md hover:shadow-lg;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg
+           border-2 border-white text-white font-semibold text-base
+           hover:bg-white hover:text-primary transition-all duration-200;
+  }
+
+  .card-service {
+    @apply bg-white rounded-xl p-6 shadow-card hover:shadow-card-hover
+           transition-all duration-300 border border-border;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
