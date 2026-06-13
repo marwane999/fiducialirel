@@ -8,10 +8,10 @@ import CTASection from '@/components/sections/CTASection'
 import { SITE_CONFIG } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Expertise Comptable et Juridique au Maroc | ICC',
+  title: 'Expertise Comptable et Juridique au Maroc | Fiduciaire le Médiateur',
   description: 'Expertise comptable et juridique pour les entreprises au Maroc. TVA, IS, IR, CNSS, bilans, paie. Confiez votre comptabilité à des experts à Casablanca.',
   openGraph: {
-    title: 'Expertise Comptable et Juridique au Maroc | ICC',
+    title: 'Expertise Comptable et Juridique au Maroc | Fiduciaire le Médiateur',
     description: 'Confiez votre comptabilité à des experts et concentrez-vous sur votre croissance.',
   },
   alternates: { canonical: `${SITE_CONFIG.url}/comptabilite-juridique` },
@@ -53,7 +53,7 @@ export default function ComptabiliteJuridiquePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-8">
-              <p className="text-red-700 font-medium">La mauvaise gestion comptable est la 1&egrave;re cause de faillite des PME. ICC vous offre une gestion comptable experte pour &eacute;viter les risques.</p>
+              <p className="text-red-700 font-medium">La mauvaise gestion comptable est la 1&egrave;re cause de faillite des PME. Fiduciaire le M&eacute;diateur vous offre une gestion comptable experte pour &eacute;viter les risques.</p>
             </div>
             <h2 className="text-3xl lg:text-4xl font-bold text-primary">Pourquoi une comptabilit&eacute; professionnelle est cruciale</h2>
             <p className="mt-4 text-lg text-muted">Prot&eacute;gez votre entreprise avec une comptabilit&eacute; tenue par des experts</p>

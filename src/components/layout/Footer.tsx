@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           <div>
             <Link href="/" className="text-2xl font-bold">
-              ICC<span className="text-secondary">.</span>
+              Fiduciaire le M&eacute;diateur
             </Link>
             <p className="mt-4 text-sm text-gray-300 leading-relaxed">
               Votre cabinet de confiance pour la création d&apos;entreprise, la domiciliation
@@ -113,7 +113,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-400">
-            <p>&copy; 2026 ICC - Cabinet de Comptabilit&eacute; &amp; Cr&eacute;ation d&apos;Entreprise</p>
+            <p>&copy; 2026 Fiduciaire le M&eacute;diateur - Cabinet de Comptabilit&eacute; &amp; Cr&eacute;ation d&apos;Entreprise</p>
             <div className="flex gap-4">
               <Link href="/mentions-legales" className="hover:text-secondary transition-colors">
                 Mentions L&eacute;gales

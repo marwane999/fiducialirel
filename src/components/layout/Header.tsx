@@ -26,7 +26,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/" className="flex items-center gap-2">
             <span className="text-2xl font-bold text-primary">
-              ICC<span className="text-secondary">.</span>
+              Fiduciaire le M&eacute;diateur
             </span>
           </Link>
 

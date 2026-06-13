@@ -7,10 +7,10 @@ import CTASection from '@/components/sections/CTASection'
 import { SITE_CONFIG } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Location de Salle de Réunion à Casablanca | ICC',
+  title: 'Location de Salle de Réunion à Casablanca | Fiduciaire le Médiateur',
   description: 'Location de salles de réunion, conférence et formation à Casablanca. Salles équipées (WiFi, vidéoprojecteur). Tarifs abordables. Réservation en ligne.',
   openGraph: {
-    title: 'Location de Salle de Réunion à Casablanca | ICC',
+    title: 'Location de Salle de Réunion à Casablanca | Fiduciaire le Médiateur',
     description: 'Salles équipées pour vos réunions, formations et conférences à Casablanca.',
   },
   alternates: { canonical: `${SITE_CONFIG.url}/location-salle` },
@@ -63,10 +63,10 @@ export default function LocationSallePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-6 mb-12">
             <div className="relative aspect-video rounded-xl overflow-hidden bg-background-alt">
-              <Image src="/images/about.webp" alt="Salle de réunion ICC Casablanca" fill className="object-cover" />
+              <Image src="/images/about.webp" alt="Salle de réunion Fiduciaire le Médiateur Casablanca" fill className="object-cover" />
             </div>
             <div className="relative aspect-video rounded-xl overflow-hidden bg-background-alt">
-              <Image src="/images/about.webp" alt="Salle de conférence ICC" fill className="object-cover" />
+              <Image src="/images/about.webp" alt="Salle de conférence Fiduciaire le Médiateur" fill className="object-cover" />
             </div>
           </div>
 

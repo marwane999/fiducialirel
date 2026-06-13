@@ -1,9 +1,9 @@
 export const SITE_CONFIG = {
-  name: 'ICC',
+  name: 'Fiduciaire le Médiateur',
   tagline: 'Votre réussite, notre mission',
   description: 'Cabinet de comptabilité et création d\'entreprise',
-  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://icc.ma',
-  email: process.env.NEXT_PUBLIC_EMAIL || 'contact@icc.ma',
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://fiduciairelemediateur.com',
+  email: process.env.NEXT_PUBLIC_EMAIL || 'contact@fiduciairelemediateur.com',
   phones: {
     primary: process.env.NEXT_PUBLIC_PHONE_PRIMARY || '+212 5 22 98 08 01',
     secondary: process.env.NEXT_PUBLIC_PHONE_SECONDARY || '+212 6 63 21 96 12',

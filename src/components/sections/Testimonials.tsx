@@ -8,7 +8,7 @@ const testimonials: Testimonial[] = [
   {
     name: 'Mehdi T.',
     company: 'Fondateur Startup, Casablanca',
-    content: 'ICC m\'a accompagné pour la création de ma société. Tout a été fait en 5 jours chrono ! Une équipe professionnelle et réactive.',
+    content: 'Fiduciaire le Médiateur m\'a accompagné pour la création de ma société. Tout a été fait en 5 jours chrono ! Une équipe professionnelle et réactive.',
     rating: 5,
   },
   {
@@ -20,13 +20,13 @@ const testimonials: Testimonial[] = [
   {
     name: 'Youssef E.',
     company: 'Gérant TPE, Casablanca',
-    content: 'Je confie ma comptabilité à ICC depuis 2 ans. Une tranquillité d\'esprit incomparable. Les déclarations fiscales sont toujours dans les temps.',
+    content: 'Je confie ma comptabilité à Fiduciaire le Médiateur depuis 2 ans. Une tranquillité d\'esprit incomparable. Les déclarations fiscales sont toujours dans les temps.',
     rating: 5,
   },
   {
     name: 'Amina B.',
     company: 'Entrepreneure, Marrakech',
-    content: 'Grâce à ICC, j\'ai pu créer ma société à distance. Tout a été géré par email et téléphone. Un gain de temps énorme !',
+    content: 'Grâce à Fiduciaire le Médiateur, j\'ai pu créer ma société à distance. Tout a été géré par email et téléphone. Un gain de temps énorme !',
     rating: 5,
   },
   {

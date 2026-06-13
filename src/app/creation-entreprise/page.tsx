@@ -9,10 +9,10 @@ import CTASection from '@/components/sections/CTASection'
 import { SITE_CONFIG } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Création d\'Entreprise au Maroc | ICC',
+  title: 'Création d\'Entreprise au Maroc | Fiduciaire le Médiateur',
   description: 'Créez votre entreprise au Maroc à partir de 800 DHS. Accompagnement complet par des experts comptables à Casablanca. Création express en quelques jours.',
   openGraph: {
-    title: 'Création d\'Entreprise au Maroc | ICC',
+    title: 'Création d\'Entreprise au Maroc | Fiduciaire le Médiateur',
     description: 'Créez votre entreprise au Maroc à partir de 800 DHS. Accompagnement complet par des experts comptables à Casablanca.',
   },
   alternates: { canonical: `${SITE_CONFIG.url}/creation-entreprise` },
@@ -76,11 +76,11 @@ export default function CreationEntreprisePage() {
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="flex-1 w-full">
               <div className="relative aspect-[4/3] rounded-xl overflow-hidden bg-background-alt">
-                <Image src="/images/about.webp" alt="Pourquoi créer avec ICC" fill className="object-cover" />
+                <Image src="/images/about.webp" alt="Pourquoi créer avec Fiduciaire le Médiateur" fill className="object-cover" />
               </div>
             </div>
             <div className="flex-1">
-              <h2 className="text-3xl lg:text-4xl font-bold text-primary">Pourquoi cr&eacute;er votre entreprise avec ICC ?</h2>
+              <h2 className="text-3xl lg:text-4xl font-bold text-primary">Pourquoi cr&eacute;er votre entreprise avec Fiduciaire le M&eacute;diateur ?</h2>
               <div className="mt-8 space-y-6">
                 <div className="bg-red-50 border border-red-200 rounded-lg p-4">
                   <p className="text-sm text-red-700 font-medium">La cr&eacute;ation d&apos;entreprise au Maroc est complexe et longue. Une erreur peut vous co&ucirc;ter des mois de retard.</p>

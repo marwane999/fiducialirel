@@ -54,7 +54,7 @@ export default function ServicesGrid() {
             Des services complets pour votre entreprise
           </h2>
           <p className="mt-4 text-lg text-muted max-w-2xl mx-auto">
-            De la cr&eacute;ation &agrave; la gestion, ICC vous accompagne &agrave; chaque &eacute;tape
+            De la cr&eacute;ation &agrave; la gestion, Fiduciaire le M&eacute;diateur vous accompagne &agrave; chaque &eacute;tape
           </p>
         </motion.div>
 

@@ -4,10 +4,10 @@ import ContactForm from '@/components/forms/ContactForm'
 import { SITE_CONFIG } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Contactez ICC - Cabinet Comptable Casablanca | ICC',
-  description: 'Contactez ICC pour un devis gratuit. Cabinet de comptabilité et création d\'entreprise à Casablanca. Réponse sous 24h.',
+  title: 'Contact | Fiduciaire le Médiateur - Cabinet Comptable Casablanca',
+  description: 'Contactez Fiduciaire le Médiateur pour un devis gratuit. Cabinet de comptabilité et création d\'entreprise à Casablanca. Réponse sous 24h.',
   openGraph: {
-    title: 'Contactez ICC - Cabinet Comptable Casablanca',
+    title: 'Contact | Fiduciaire le Médiateur - Cabinet Comptable Casablanca',
     description: 'Parlons de votre projet. Devis gratuit sous 24h.',
   },
   alternates: { canonical: `${SITE_CONFIG.url}/contact` },
@@ -21,7 +21,7 @@ export default function ContactPage() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="max-w-2xl">
             <h1 className="text-4xl sm:text-5xl font-bold text-white">
-              Contactez ICC - Cabinet de Comptabilit&eacute; Casablanca
+               Contactez Fiduciaire le M&eacute;diateur - Cabinet de Comptabilit&eacute; Casablanca
             </h1>
             <p className="mt-4 text-lg text-gray-200">
               Parlons de votre projet. Devis gratuit sous 24h.
@@ -99,7 +99,7 @@ export default function ContactPage() {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="ICC Casablanca"
+                  title="Fiduciaire le Médiateur Casablanca"
                 />
               </div>
             </div>

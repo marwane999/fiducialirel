@@ -7,10 +7,10 @@ import CTASection from '@/components/sections/CTASection'
 import { SITE_CONFIG } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Domiciliation d\'Entreprise à Casablanca | ICC',
+  title: 'Domiciliation d\'Entreprise à Casablanca | Fiduciaire le Médiateur',
   description: 'Domiciliation d\'entreprise à Casablanca dès 2500 DHS. Adresse juridique et fiscale pour votre société. Réception et réexpédition de courrier. 3 adresses disponibles.',
   openGraph: {
-    title: 'Domiciliation d\'Entreprise à Casablanca | ICC',
+    title: 'Domiciliation d\'Entreprise à Casablanca | Fiduciaire le Médiateur',
     description: 'Adresse juridique et fiscale pour votre société à Casablanca. 3 adresses disponibles.',
   },
   alternates: { canonical: `${SITE_CONFIG.url}/domiciliation` },
@@ -92,7 +92,7 @@ export default function DomiciliationPage() {
       <section className="section-padding bg-background-alt">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-primary">Avantages ICC</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-primary">Nos Avantages</h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {advantages.map((adv) => {

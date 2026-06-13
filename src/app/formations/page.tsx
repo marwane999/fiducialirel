@@ -6,10 +6,10 @@ import CTASection from '@/components/sections/CTASection'
 import { SITE_CONFIG } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Formation Comptable Professionnelle Sage | ICC',
+  title: 'Formation Comptable Professionnelle Sage | Fiduciaire le Médiateur',
   description: 'Formation comptable professionnelle sur Sage à Casablanca. Devenez comptable confirmé en 3 mois. Formation pratique avec travaux dirigés. Certificat de formation.',
   openGraph: {
-    title: 'Formation Comptable Professionnelle Sage | ICC',
+    title: 'Formation Comptable Professionnelle Sage | Fiduciaire le Médiateur',
     description: 'Devenez comptable confirmé en 3 mois avec notre formation pratique sur Sage.',
   },
   alternates: { canonical: `${SITE_CONFIG.url}/formations` },

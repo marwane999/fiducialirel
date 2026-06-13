@@ -20,16 +20,16 @@ const jakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: 'ICC - Cabinet de Comptabilité & Création d\'Entreprise à Casablanca',
-    template: '%s | ICC Maroc',
+    default: 'Fiduciaire le Médiateur - Cabinet de Comptabilité & Création d\'Entreprise à Casablanca',
+    template: '%s | Fiduciaire le Médiateur',
   },
   description: 'Cabinet de comptabilité et création d\'entreprise au Maroc. Création de société dès 800 DHS, domiciliation, expertise comptable et formation Sage à Casablanca.',
-  keywords: ['cabinet comptable Casablanca', 'création entreprise Maroc', 'domiciliation entreprise', 'expertise comptable Maroc', 'comptabilité Maroc'],
+  keywords: ['cabinet comptable Casablanca', 'création entreprise Maroc', 'domiciliation entreprise', 'expertise comptable Maroc', 'comptabilité Maroc', 'Fiduciaire le Médiateur'],
   openGraph: {
     type: 'website',
     locale: 'fr_FR',
-    siteName: 'ICC Maroc',
-    url: 'https://icc.ma',
+    siteName: 'Fiduciaire le Médiateur',
+    url: 'https://fiduciairelemediateur.com',
   },
   robots: {
     index: true,
@@ -40,10 +40,10 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  name: 'ICC - Cabinet de Comptabilité',
-  image: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://icc.ma'}/images/logo.png`,
+  name: 'Fiduciaire le Médiateur - Cabinet de Comptabilité',
+  image: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://fiduciairelemediateur.com'}/images/logo.png`,
   telephone: '+212 5 22 98 08 01',
-  email: 'contact@icc.ma',
+  email: 'contact@fiduciairelemediateur.com',
   address: {
     '@type': 'PostalAddress',
     streetAddress: "18 Boulevard d'Anfa, 1er étage",

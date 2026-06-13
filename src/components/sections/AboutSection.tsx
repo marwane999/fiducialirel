@@ -33,7 +33,7 @@ export default function AboutSection() {
               <div className="relative aspect-[4/3] rounded-xl overflow-hidden bg-background-alt">
                 <Image
                   src="/images/about.webp"
-                  alt="ICC Cabinet Comptable Casablanca"
+                  alt="Fiduciaire le Médiateur Cabinet Comptable Casablanca"
                   fill
                   className="object-cover"
                 />
@@ -47,7 +47,7 @@ export default function AboutSection() {
               className="flex-1"
             >
               <h2 className="text-3xl lg:text-4xl font-bold text-primary">
-                Pourquoi choisir ICC pour votre entreprise ?
+                Pourquoi choisir Fiduciaire le M&eacute;diateur pour votre entreprise ?
               </h2>
               <div className="mt-8 space-y-4">
                 {advantages.map((adv) => (
@@ -74,7 +74,7 @@ export default function AboutSection() {
               <div className="relative aspect-[4/3] rounded-xl overflow-hidden bg-background-alt">
                 <Image
                   src="/images/approach.webp"
-                  alt="Notre approche ICC"
+                  alt="Notre approche Fiduciaire le Médiateur"
                   fill
                   className="object-cover"
                 />

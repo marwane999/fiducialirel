@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import { SITE_CONFIG } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Politique de Confidentialité | ICC Maroc',
-  description: 'Politique de confidentialité du cabinet ICC - Protection de vos données personnelles.',
+  title: 'Politique de Confidentialité | Fiduciaire le Médiateur',
+  description: 'Politique de confidentialité du cabinet Fiduciaire le Médiateur - Protection de vos données personnelles.',
   alternates: { canonical: `${SITE_CONFIG.url}/confidentialite` },
 }
 
